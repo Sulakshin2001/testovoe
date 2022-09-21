@@ -1,0 +1,104 @@
+
+.block1{
+
+  width: 628px;
+  height: 293px;
+  background-color: red;
+  position:relative;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+  .block2{
+    width: 628px;
+
+    height: 293px;
+    position:relative;
+    background-color: #2D2C2A;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.block1:before {
+  content:"";
+
+  position:absolute;
+
+  top:0;
+
+  right:0;
+
+  border-width:0 43px 43px 0;
+
+  border-style:solid;
+
+  border-color:#CD1800 #fff;
+
+}
+.title{
+  position: absolute;
+  width: 447px;
+  height: 43px;
+  left: 71px;
+  top: 20px;
+
+
+  /* Desktop / H3 */
+
+  font-family: 'Styrene A Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+
+
+  color: #FFFFFF;
+}
+.span{
+  margin-top: 150px;
+  width: 496px;
+  height: 78px;
+  left: 62px;
+  top: 143px;
+  margin-left:65px;
+
+  font-family: 'Styrene A Web';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  /* or 26px */
+
+
+  color: #FFFFFF;
+
+}
+.li{
+  width: 498px;
+  height: 78px;
+  margin-top: 40px;
+
+  font-family: 'Styrene A Web';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  /* or 26px */
+
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.ul{
+  margin-top: 80px;
+  margin-left:105px;
+}

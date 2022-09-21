@@ -1,0 +1,82 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    .title{
+        width: 404px;
+        height: 31px;
+        margin-left: 375px;
+        margin-top: 203px;
+        margin-bottom: 40px;
+    };
+
+
+    .text{
+        margin-left: 335px;
+        margin-top: 300px;
+
+        /* Desktop / H4 */
+
+        font-family: 'Styrene A Web';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 120%;
+        position: relative;
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -28.49px;
+             left: -340px;
+            margin-left: 341px;
+            margin-bottom: 29px;
+            height: 1px;
+            background: green;
+            width: 122px;
+            background-color: #FF3535;
+
+        }
+
+
+        color: #000000;}
+
+    .text2{
+        position: relative;
+        left: 10.88%;
+        right: 38.93%;
+        top:-2.66%;
+        bottom: 77.95%;
+
+        font-family: 'Styrene A Web';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 120%;
+        /* identical to box height, or 38px */
+
+
+        color: #000000;
+
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -20.49px;
+            left: -340px;
+            margin-left: 341px;
+            margin-bottom: 29px;
+            height: 1px;
+            background: green;
+            width: 122px;
+            background-color: #FF3535;
+
+        }
+}
+    .specialnost{
+        display: flex;
+    }}
+
+
+

@@ -1,0 +1,45 @@
+
+.subject{
+  width: 353px;
+
+  /* Desktop / Text Main */
+
+  font-family: 'Styrene A Web';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 574px;
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+
+
+
+
+}
+.subject2{
+  width: 353px;
+
+  /* Desktop / Text Main */
+
+  font-family: 'Styrene A Web';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 310px;
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin-top: 20px;
+
+}
